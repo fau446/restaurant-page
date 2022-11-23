@@ -17,6 +17,10 @@ function createNav() {
   menuButton.innerHTML = "Menu"
   contactButton.innerHTML = "Contact Us"
 
+  homeButton.classList.add('home-btn')
+  menuButton.classList.add('menu-btn')
+  contactButton.classList.add('contact-btn')
+
   content.parentNode.insertBefore(nav, content)
   nav.appendChild(homeButton)
   nav.appendChild(menuButton)
