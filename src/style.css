@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(images/background_pic.jpg);
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100px;
+  padding: 0 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav button {
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selected {
+  border-bottom: 3px solid white;
+  cursor: default;
+}
+
+#content {
+  background:rgba(0, 0, 0, 0.6);
+  width: 70%;
+  padding: 30px;
+  margin: 100px auto;
+  border-radius: 5px;
+}
