@@ -6,8 +6,10 @@ export default function homeContent() {
   let homeButton = document.querySelector('.home-btn')
 
   pageTitle.innerHTML = "About Us"
-  //image.src = '../src/images/brick-wall-ga7e8974e2_640.jpg'
-  description.innerHTML = "Come check out our restaurant!"
+  image.src = '../src/images/chef_cooking.jpg'
+  image.width = '413'
+  image.height = '285'
+  description.innerHTML = "Welcome to Bear's, home to the world-famous \"Bear Burger\"."
 
   content.appendChild(pageTitle)
   content.appendChild(image)
