@@ -6,6 +6,9 @@
 
 body {
   background: url(images/background_pic.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
 }
 
