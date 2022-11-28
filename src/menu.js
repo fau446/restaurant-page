@@ -20,7 +20,7 @@ function createFoodItem(name, description, img_name) {
   let itemImage = document.createElement('img')
   let itemDescription = document.createElement('p')
 
-  itemImage.src = `../src/images/${img_name}`
+  itemImage.src = `images/${img_name}`
   itemImage.width = '320'
   itemImage.height = '180'
 
